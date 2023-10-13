@@ -1,19 +1,44 @@
 # Simple Step React App
 
-A minimalistic application for demonstrating a step-by-step guide with dynamic message displays.
+This is a simple React application that provides a step-by-step guide for a user's journey. The user can navigate between the different steps, view messages, and see their current position.
 
-## Main Features
+![ScreenShot](https://raw.github.com/{jrcopeti}/{steps-react}/{main}/{public/screenshot1.png})
 
-1. **Dynamic Step Rendering:** Each step is rendered dynamically based on its current state.
-2. **Message Display:** Associated messages are displayed as the steps progress.
-3. **React Component Structure:** Utilizes React's component-based architecture for modular and scalable code.
+## Features:
 
-## Usage
+1. **Multiple Step Indicators**: Clearly indicates which step the user is on with a numeric indicator.
+2. **Dynamic Step Messages**: Displays messages that are associated with each step.
+3. **Navigation**: Allows user to navigate to the previous or next step with the help of buttons.
+4. **Toggle Feature**: User can toggle the visibility of the step guide with a close button.
+5. **Styling**: Customizable button color and text color using inline styles.
 
-In the main component, the step number and its associated message are fetched and rendered:
+## Components:
 
-```jsx
-<p className="message">
-    <h3>Step {step}</h3>
-    {messages[step - 1]}
-</p>
+- `App`: The root component which renders the main layout.
+- `Steps`: Renders the entire step-by-step guide. It also manages the state of the current step and the visibility of the guide.
+- `StepMessage`: Displays the message for the current step.
+- `Button`: A reusable button component with customizable styles.
+
+## Main Learning Points:
+
+1. **React State Management**: Using the `useState` hook to manage component state and create interactive UIs.
+2. **Component Composition**: Building and integrating multiple components to create a larger, cohesive application.
+3. **Props Passing**: Sending data between parent and child components using props.
+4. **Event Handling**: Creating and managing user interactions such as button clicks.
+5. **Conditional Rendering**: Displaying content conditionally based on component state.
+6. **Inline Styling**: Applying styles to components using inline style props.
+
+## How to Run:
+
+1. Clone the repository.
+2. Navigate to the project directory and run `npm install`.
+3. Once dependencies are installed, run `npm start`.
+4. Open a browser and go to `http://localhost:3000`.
+
+## Contributing:
+
+Feel free to fork this repository, add your own steps or features, and send a pull request. Feedback and contributions are always welcome.
+
+---
+
+This is a great project for beginners looking to understand some of the foundational concepts in React. Enjoy navigating through the steps!
