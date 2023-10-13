@@ -1,4 +1,4 @@
-# Simple Step App
+# Simple Step React App
 
 A minimalistic application for demonstrating a step-by-step guide with dynamic message displays.
 
