@@ -2,7 +2,8 @@
 
 This is a simple React application that provides a step-by-step guide for a user's journey. The user can navigate between the different steps, view messages, and see their current position.
 
-![ScreenShot](https://raw.github.com/{jrcopeti}/{steps-react}/{main}/{public/screenshot1.png})
+![Screenshot](public/screenshot1.png)
+![Screenshot](public/screenshot2.png)
 
 ## Features:
 
@@ -35,10 +36,4 @@ This is a simple React application that provides a step-by-step guide for a user
 3. Once dependencies are installed, run `npm start`.
 4. Open a browser and go to `http://localhost:3000`.
 
-## Contributing:
 
-Feel free to fork this repository, add your own steps or features, and send a pull request. Feedback and contributions are always welcome.
-
----
-
-This is a great project for beginners looking to understand some of the foundational concepts in React. Enjoy navigating through the steps!
