@@ -1,73 +1,44 @@
-# Getting Started with Create React App
+# Simple Step React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a simple React application that provides a step-by-step guide for a user's journey. The user can navigate between the different steps, view messages, and see their current position.
 
-## Available Scripts
+![ScreenShot](https://raw.github.com/{jrcopeti}/{steps-react}/{main}/{public/screenshot1.png})
 
-In the project directory, you can run:
+## Features:
 
-### `npm start`
+1. **Multiple Step Indicators**: Clearly indicates which step the user is on with a numeric indicator.
+2. **Dynamic Step Messages**: Displays messages that are associated with each step.
+3. **Navigation**: Allows user to navigate to the previous or next step with the help of buttons.
+4. **Toggle Feature**: User can toggle the visibility of the step guide with a close button.
+5. **Styling**: Customizable button color and text color using inline styles.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Components:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- `App`: The root component which renders the main layout.
+- `Steps`: Renders the entire step-by-step guide. It also manages the state of the current step and the visibility of the guide.
+- `StepMessage`: Displays the message for the current step.
+- `Button`: A reusable button component with customizable styles.
 
-### `npm test`
+## Main Learning Points:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. **React State Management**: Using the `useState` hook to manage component state and create interactive UIs.
+2. **Component Composition**: Building and integrating multiple components to create a larger, cohesive application.
+3. **Props Passing**: Sending data between parent and child components using props.
+4. **Event Handling**: Creating and managing user interactions such as button clicks.
+5. **Conditional Rendering**: Displaying content conditionally based on component state.
+6. **Inline Styling**: Applying styles to components using inline style props.
 
-### `npm run build`
+## How to Run:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. Clone the repository.
+2. Navigate to the project directory and run `npm install`.
+3. Once dependencies are installed, run `npm start`.
+4. Open a browser and go to `http://localhost:3000`.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Contributing:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Feel free to fork this repository, add your own steps or features, and send a pull request. Feedback and contributions are always welcome.
 
-### `npm run eject`
+---
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-# steps-react
-# steps-react
-# steps-react
+This is a great project for beginners looking to understand some of the foundational concepts in React. Enjoy navigating through the steps!
